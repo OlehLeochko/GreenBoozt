@@ -1850,6 +1850,7 @@ footer {
 @media only screen and (max-width: 719px) {
   header p {
     font-size: 8.5px;
+    padding-left: 0px;
   }
   .container {
     max-width: 540px;
@@ -1857,7 +1858,7 @@ footer {
     padding: 0 15px;
   }
   .warning {
-    font-size: 10px;
+    font-size: 8.5px;
   }
 
   /**Main*******/
@@ -2367,7 +2368,8 @@ footer {
 
 @media only screen and (max-width: 539px) {
   header p {
-    font-size: 5px;
+    font-size: 10px;
+    padding-left: 0px;
   }
   .container {
     max-width: 320px;
@@ -2375,7 +2377,7 @@ footer {
     padding: 0 10px;
   }
   .warning {
-    font-size: 6px;
+    font-size: 10px;
   }
 
   /**Main*******/
