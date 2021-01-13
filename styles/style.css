@@ -2518,7 +2518,7 @@ footer {
   }
   .guy-with-plant {
     width: 200px;
-    height: auto;
+    height: 201px;
     padding-top: 0px;
     /* margin: 0 auto;*/
   }
@@ -2773,7 +2773,7 @@ footer {
   }
   .ingredients__content__img img {
     width: 145px;
-    height: auto;
+    height: 217px;
   }
   .ingredients__content__text {
     margin-top: 10px;
