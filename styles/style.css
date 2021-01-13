@@ -1,0 +1,2919 @@
+* {
+  padding: 0;
+  margin: 0 auto;
+  border: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  box-sizing: border-box;
+  margin: 0;
+}
+header {
+  /*width: 100%;*/
+  background-color: #ff0000;
+}
+.container {
+  margin: 0 auto;
+  max-width: 1920px;
+  padding: 0 100px;
+}
+header p {
+  padding-left: 45px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  color: #ffffff;
+  line-height: 100%;
+  margin: 0 auto;
+}
+header p span {
+  color: #faef87;
+  font-weight: 700;
+}
+.warning {
+  font-size: 33.33px;
+}
+main {
+  background-color: #f6fdf8;
+}
+
+/** About **/
+.about {
+  background-image: url("../assets/bg.jpg");
+}
+
+.about__greenBoozt {
+  display: flex;
+  justify-content: space-between;
+}
+.about__greenBoozt__content {
+  /* padding: 0 0 0 200px;
+    flex-grow: 7;*/
+}
+.about__logo {
+  padding: 42px 0 66px;
+}
+
+.about__greenBoozt__content__h1 {
+  color: #88c500;
+  margin: 0;
+  padding: 0;
+}
+.about__greenBoozt__content__h1 h2 {
+  font-size: 125px;
+  line-height: 100%;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+}
+.about__greenBoozt__content__h1 h2 span {
+  color: #dd9d3f;
+}
+.about__greenBoozt__content__h1 p {
+  font-size: 33.33px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  line-height: 125%;
+  /*z-index: 10000;*/
+}
+.about__greenBoozt__content__paragraph1/*, .about__greenBoozt__content__paragraph2,.about__greenBoozt__content__paragraph3*/ {
+  display: flex;
+  width: 885px;
+  margin: 40px 0 0;
+  /* justify-content: space-between;*/
+  /* justify-content: space-between;*/
+  /*width: 683px;*/
+}
+.about__greenBoozt__content__paragraph1 .img {
+  margin: 15px 0 0;
+}
+.about__greenBoozt__content__paragraph2 {
+  display: flex;
+  width: 570px;
+  margin: 25px 0;
+  /*justify-content: space-between;
+   /* justify-content: space-between;*/
+  /*width: 683px;*/
+}
+.about__greenBoozt__content__paragraph3 {
+  display: flex;
+  width: 540px;
+  margin: 0;
+  /*justify-content: space-between;
+   /* justify-content: space-between;*/
+  /*width: 683px;*/
+}
+.about__greenBoozt__content__paragraph2 .img,
+.about__greenBoozt__content__paragraph3 .img {
+  margin-top: 10px;
+}
+.about__greenBoozt__content__text1,
+.about__greenBoozt__content__text2,
+.about__greenBoozt__content__text3 {
+  margin-left: 20px;
+  z-index: 5;
+}
+.about__greenBoozt__content__text h3 {
+  font-size: 45.83px;
+  color: #88c500;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  padding: 0;
+  line-height: 100%;
+  padding-bottom: 8px;
+  /*   display: flex;
+    flex-direction: column;
+    justify-content: space-between;*/
+}
+.about__greenBoozt__content__text p {
+  font-size: 25px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  color: #567f00;
+  line-height: 166%;
+}
+.about__greenBoozt__images {
+  position: relative;
+  display: flex;
+  width: 100%;
+  /*float: right;*/
+  /*left: 250px;
+   /* flex-grow: 3;*/
+  /* background-color: black;
+   /* width: 150px;
+    /*margin: 0;
+    
+    /*order: 2;
+    /*right: 250px;*/
+}
+.smilling-girl {
+  position: absolute;
+  z-index: 0;
+  left: -520px;
+  top: 113px;
+}
+
+.cannabis1 {
+  position: absolute;
+  left: -500px;
+  top: 600px;
+  z-index: 1;
+}
+.cannabis {
+  position: absolute;
+  /*left: -280px;*/
+  top: 500px;
+  left: -180px;
+  z-index: 2;
+}
+
+.less-product {
+  position: absolute;
+  z-index: 3;
+  top: 415px;
+  left: -25px;
+}
+.product {
+  position: absolute;
+  z-index: 4;
+  top: 380px;
+  left: -190px;
+}
+.certified {
+  z-index: 5;
+  position: absolute;
+  top: 850px;
+  left: 110px;
+}
+/*** FORM ***/
+.input-area {
+  background-color: #03321a;
+  z-index: 10;
+  margin-top: 42px;
+  border-radius: 10px;
+  max-width: 500px;
+  /*  border-width: 10px;
+    border-style: solid;
+    border-color: black;*/
+}
+.input-area__img {
+  position: relative;
+}
+.input-area__img p {
+  text-shadow: 2px 2px 8px grey;
+}
+.small-text {
+  font-size: 25px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #f2f2f0;
+  position: absolute;
+  top: 22px;
+  left: 310px;
+}
+.only {
+  left: 110px;
+}
+.big-text {
+  font-size: 125px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: #f6fdf8;
+  position: absolute;
+  top: -22px;
+  left: 180px;
+}
+/*
+.input-area__img p:first-child {
+    right: 110px;
+}*/ /*
+.input-area__img p:last-child{
+    right: 55px;
+}*/
+.big-text span {
+  position: absolute;
+  font-size: 45.83px;
+  top: 80px;
+}
+.input-area > h1 {
+  font-size: 37.5px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: #f6fdf8;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 45px;
+}
+/*
+.input-area__form{
+} */
+.input-area__form input {
+  margin-left: 25px;
+  margin-bottom: 20px;
+  width: 455px;
+  height: 50px;
+  border-radius: 10px;
+  font-family: "Popins", sans-serif;
+  font-weight: 600;
+  font-size: 25px;
+  padding-left: 15px;
+}
+.input-area__form input:hover {
+  /* background-color: #faef87;*/
+  background-color: #5d9e61;
+}
+.input-area__form input::placeholder {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 25px;
+  padding-left: 15px;
+  line-height: 50px;
+  color: #c2c2c2;
+}
+.two-fields {
+  display: flex;
+  margin: 0;
+}
+.two-fields input {
+  width: 200px;
+}
+.two-fields :last-child {
+  /*width: 240px;*/
+  width: 240px;
+  margin: 0 20px auto 0;
+}
+.input-area__form input[type="submit"] {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 35.5px;
+  color: #ffffff;
+  background-color: #5d9e61;
+  border: 10px white;
+  border-radius: 0;
+  height: 70px;
+  margin-top: 5px;
+  margin-bottom: 25px;
+}
+.input-area__form input[type="submit"]:hover {
+  /*  background-color: #f0cd66;*/
+  background-image: linear-gradient(#feef81, #dd9d3f);
+  border: 3px solid #f6fdf8;
+  border-radius: 3px;
+  cursor: pointer;
+}
+/****Pure Nature****/
+.pure-nature {
+  margin-top: 55px;
+}
+.pure-nature .container {
+  padding-left: 0px;
+}
+.pure-nature__content {
+  display: flex;
+}
+.pure-nature__content__img {
+  position: relative;
+}
+.organic-img {
+  position: absolute;
+  left: 270px;
+  top: 35px;
+}
+.pure-nature__content__title {
+  display: flex;
+  max-width: 850px;
+  margin-left: 0px;
+  justify-content: space-between;
+  padding: 25px 0 40px 0;
+}
+.pure-nature__content__title h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 100%;
+  padding-top: 10px;
+  color: #88c500;
+}
+.pure-nature__content__title img {
+  margin-left: 0px;
+}
+.pure-nature__content__text {
+  margin-left: 30px;
+  /* max-width: 1050px;*/
+}
+.pure-nature__content p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 166%;
+  /*  padding-top: 10px;*/
+  color: #567f00;
+  padding-bottom: 45px;
+  hyphens: auto;
+}
+.pure-nature__content p span {
+  font-weight: 700;
+}
+/*
+.pure-nature__content p:first-child{
+    padding-top: 40px;
+}*/
+
+/****ORDER ****/
+.order {
+  background-image: url(../assets/photo_2021-01-09_22-29-54.jpg);
+}
+.order__content {
+  display: flex;
+}
+.order__title {
+  margin-left: 0;
+}
+.order__title h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  line-height: 100%;
+  font-size: 66.67px;
+  color: #f6fdf8;
+  padding-top: 55px;
+}
+.order__title h2 span {
+  color: #dd9d3f;
+}
+.order__title p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  line-height: 100%;
+  font-size: 33.33px;
+  color: #dde5df;
+  padding: 20px 0 40px 0;
+}
+.order__button {
+  margin-right: 0px;
+  max-height: 115px;
+}
+.btn {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 41.67px;
+  color: #ffffff;
+  background-color: #5d9e61;
+  padding: 30px 20px;
+  margin-top: 60px;
+  cursor: pointer;
+}
+.btn:hover {
+  border: 3px solid #f6fdf8;
+  background-image: linear-gradient(#feef81, #dd9d3f);
+}
+
+/***MODAL FORM ***/
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 11;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.input-area-modal {
+  background-color: #03321a;
+  z-index: 10;
+  margin-top: 42px;
+  border-radius: 10px;
+  max-width: 500px;
+}
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 100px;
+  font-weight: bold;
+  padding-right: 100px;
+}
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.input-area-modal > h1 {
+  font-size: 37.5px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: #f6fdf8;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 45px;
+}
+
+/**** Wondering what hemp oil can do for you? ****/
+.hemp-oil .container {
+  /*padding-right: 0;*/
+}
+.hemp-oil__container {
+  display: flex;
+}
+.hemp-oil__content {
+  margin-left: 0;
+  margin-right: 0;
+  display: flex;
+  margin-top: 50px;
+  max-width: 1290px;
+  /*justify-content: space-between;*/
+}
+.hemp-oil__content__img {
+  padding-right: 20px;
+}
+.hemp-oil__content__text > h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 100%;
+  color: #88c500;
+  padding-bottom: 35px;
+}
+.hemp-oil__content__text p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 166%;
+  padding-bottom: 10px;
+  color: #567f00;
+  hyphens: auto;
+}
+.hemp-oil__content__text ul {
+  display: flex;
+  height: 250px;
+  flex-wrap: wrap;
+  flex-direction: column;
+  max-width: 875px;
+  margin-left: 0px;
+  margin-bottom: 10px;
+}
+.hemp-oil__content__text ul li {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+  color: #88c500;
+  list-style-type: none;
+  text-decoration: underline;
+  line-height: 100%;
+  padding-top: 20px;
+  /* border-bottom:2px solid #88c500;  */
+  margin-left: 0;
+}
+/*
+.hemp-oil__content__text ul li:after {
+    content: '';
+    height: 2px;
+    background: #88c500; 
+    display:block;
+}*/
+.hemp-oil__content__text__note {
+  border: 4px solid #88c500;
+  width: 1050px;
+  margin-left: 0;
+  margin-bottom: 50px;
+}
+.hemp-oil__content__text__note p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  color: #567f00;
+  padding-left: 30px;
+  padding-right: 70px;
+  padding-bottom: 30px;
+  line-height: 166%;
+}
+.hemp-oil__content__text__note__title {
+  display: flex;
+  /*justify-content: flex-start;*/
+  /* margin-left: 0px;*/
+}
+.hemp-oil__content__text__note__title h3 {
+  margin-top: 30px;
+  margin-left: 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 33.33px;
+  color: #88c500;
+  line-height: 100%;
+}
+.hemp-oil__content__text__note__title__img {
+  margin: 27px 20px 30px 24px;
+}
+.hemp-oil__img {
+  position: relative;
+}
+.dropper {
+  position: absolute;
+  left: -38px;
+  z-index: 3;
+  overflow: hidden;
+}
+.bottle {
+  position: absolute;
+  left: -127px;
+  top: 351px;
+  z-index: 4;
+}
+.label {
+  position: absolute;
+  left: -130px;
+  top: 510px;
+  z-index: 5;
+}
+.leaf {
+  position: absolute;
+  left: -95px;
+  top: 235px;
+  z-index: 1;
+  overflow: hidden;
+}
+.plant {
+  z-index: 2;
+  position: absolute;
+  left: -396px;
+  top: 298px;
+  overflow: hidden;
+}
+/*
+.hemp-oil__content__text ul:first-child{
+    padding-top: 0px;
+}*/
+
+/****INGREDIENTS****/
+.ingredients {
+  /*  background-color: #f2f7e5;*/
+  background-image: linear-gradient(#f3f7e6 20%, #f2f5e3 60%, #f3f7e6 20%);
+}
+.ingredients .container {
+  padding-left: 0;
+}
+.ingredients__content {
+  display: flex;
+}
+.ingredients__content__img {
+  padding-top: 155px;
+  padding-right: 35px;
+}
+.ingredients__content__text {
+  margin-top: 65px;
+  /*line-height: 150%;*/
+}
+.ingredients__content__text h5,
+p,
+li {
+  font-size: 25px;
+  font-family: "Poppins", sans-serif;
+}
+.ingredients__content__text h5 {
+  font-weight: 700;
+  color: #88c500;
+  /*padding-top: 50px;*/
+}
+.ingredients__content__text p,
+.ingredients__content__text ul {
+  padding-bottom: 45px;
+}
+.ingredients__content__text p,
+li {
+  font-weight: 400;
+  color: #567f00;
+  line-height: 166%;
+}
+/*
+.ingredients__content__text__span{
+    padding-top: 50px;
+}*/
+.ingredients__content__text__span a {
+  color: #88c500;
+  border-bottom: 2px solid #88c500;
+  text-decoration: none;
+}
+.ingredients__content__text__hyphens {
+  hyphens: auto;
+}
+.ingredients__content__text li {
+  margin-left: 25px;
+  padding-left: 10px;
+}
+
+/**** TEST TUBES ****/
+.test-tubes {
+  background-color: #e2e7e1;
+}
+.test-tubes .container {
+  padding: 0;
+  position: relative;
+  background-image: url("../assets/Slider.png");
+  height: 903px;
+}
+.test-tubes__certified-img {
+  position: absolute;
+  top: 50px;
+  left: 30px;
+  /*padding: 50px 0 0 30px;*/
+}
+.test-tubes__organic-img {
+  position: absolute;
+  top: 174px;
+  left: 184px;
+}
+.test-tubes__text {
+  position: absolute;
+  top: 135px;
+  left: 400px;
+  width: 790px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  color: #88c500;
+}
+.test-tubes__text h5 {
+  font-weight: 700;
+  font-size: 41.67px;
+  padding-bottom: 55px;
+  line-height: 130%;
+}
+.test-tubes__text p {
+  font-weight: 500;
+  font-size: 41.67px;
+  line-height: 130%;
+}
+
+/**** LAST ORDER ****/
+.last-order {
+  background-color: #001e13;
+  /* height: 400px;*/
+}
+.last-order .container {
+  padding: 0;
+}
+.last-order__note p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500px;
+  font-size: 25px;
+  color: #f1f5e3;
+  line-height: 166%;
+  padding-top: 20px;
+  padding-left: 75px;
+  padding-bottom: 20px;
+}
+.last-order__figures {
+  display: flex;
+}
+.last-order .order__button {
+  margin-left: 0;
+}
+.last-order .btn {
+  margin-top: 0;
+}
+.last-order__content {
+  padding-bottom: 80px;
+}
+.last-order__figure__left {
+  display: flex;
+  margin-left: 0;
+}
+.last-order__figure__right {
+  display: flex;
+  margin-right: 0;
+}
+.rectangle {
+  width: 668px;
+  height: 119px;
+  background-image: linear-gradient(#feef81, #dd9d3f);
+}
+/*
+.triangle-right {
+  width: 0;
+  height: 0;
+  border-top: 61px solid transparent;
+  border-left: 50px solid #dd9d3f; 
+  border-bottom: 60px solid transparent;
+}
+.triangle-left {
+  width: 0;
+  height: 0;
+  border-top: 61px solid transparent;
+  border-right: 50px solid #dd9d3f; 
+  border-bottom: 60px solid transparent;
+}*/
+footer {
+  background-image: url(../assets/footer-bc.png);
+  background-color: #001e13;
+}
+.footer__container {
+  display: flex;
+}
+.footer__container a {
+  color: #f1f5e3;
+  font-size: 25px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  text-decoration: none;
+  display: block;
+} /*
+.footer__container a:hover{
+  border-bottom: 2px solid #f1f5e3;
+}*/
+.footer__text__title {
+  color: #f1f6e3;
+  font-size: 33.33px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  line-height: 125%;
+  padding-bottom: 30px;
+}
+.footer__text__store-information {
+  max-width: 365px;
+  margin-left: 0;
+}
+.footer__text__store-information a {
+  padding-left: 15px;
+  margin-left: 0;
+  line-height: 166%;
+}
+.footer__text__store-information .img-link {
+  padding-left: 0;
+}
+.footer__text__store-information__address {
+  display: flex;
+}
+.footer__text__store-information__phone {
+  display: flex;
+  margin-top: 25px;
+  margin-bottom: 40px;
+  /* margin-left: 0px;*/
+}
+.footer__text__store-information__mail {
+  display: flex;
+  margin-bottom: 110px;
+}
+.footer-img {
+  margin: 0;
+}
+.footer__text__store-information .footer-img {
+  padding-top: 5px;
+}
+.footer__text__my-accaunt {
+  margin-left: 0;
+}
+.footer__text__information {
+  margin-right: 110px;
+}
+.footer__text__social-media {
+  margin-left: 0;
+  margin-right: 0;
+}
+.footer__text__social-media .footer__text__title {
+  padding-left: 13px;
+  padding-bottom: 40px;
+}
+.footer__text__social-media__facebook {
+  position: relative;
+  margin-bottom: 28px;
+}
+.footer__text__social-media__instagram {
+  position: relative;
+}
+.footer__text__social-media__facebook a span,
+.footer__text__social-media__instagram a span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 33.33px;
+}
+
+@media only screen and (max-width: 1919px) {
+  header p {
+    font-size: 18.75px;
+  }
+  .container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 50px;
+  }
+  .warning {
+    font-size: 25px;
+  }
+  /**Main********/
+  /*   .about{
+        display: flex;
+        justify-content: center;
+    }*/
+  .about__logo img {
+    width: 258px;
+    height: auto;
+  }
+  .about__greenBoozt {
+    justify-content: center;
+  }
+  .about__greenBoozt__content__h1 h2 {
+    font-size: 93.75px;
+  }
+  .about__greenBoozt__content__h1 p {
+    font-size: 25px;
+  }
+  .about__greenBoozt__content__paragraph1/*, .about__greenBoozt__content__paragraph2,.about__greenBoozt__content__paragraph3*/ {
+    width: 683.75px;
+    margin: 30px 0 0;
+  }
+  .about__greenBoozt__content__paragraph1 .img {
+    margin: 12px 0 0;
+  }
+  .about__greenBoozt__content__paragraph2 {
+    width: 458px;
+    margin: 19px 0;
+  }
+  .about__greenBoozt__content__paragraph3 {
+    width: 445px;
+    margin: 0;
+  }
+  .about__greenBoozt__content__paragraph2 .img,
+  .about__greenBoozt__content__paragraph3 .img {
+    margin-top: 10px;
+  }
+  .about__greenBoozt__content__text1,
+  .about__greenBoozt__content__text2,
+  .about__greenBoozt__content__text3 {
+    margin-left: 20px;
+    z-index: 10;
+  }
+  .about__greenBoozt__content__text h3 {
+    font-size: 35px;
+    padding: 0;
+    line-height: 100%;
+    padding-bottom: 8px;
+    /*   display: flex;
+        flex-direction: column;
+        justify-content: space-between;*/
+  }
+  .about__greenBoozt__content__text p {
+    font-size: 19px;
+    color: #567f00;
+    line-height: 120%;
+  }
+  .input-area {
+    display: none;
+  }
+  .smilling-girl {
+    max-width: 750px;
+    height: auto;
+    left: -360px;
+    /*position: absolute;/
+        z-index: 0;
+        left: -520px;*/
+    top: 72px;
+  }
+  .cannabis1 {
+    left: -360px;
+    top: 445px;
+    z-index: 1;
+    width: 330px;
+    height: auto;
+  }
+  .cannabis {
+    /*position: absolute;
+        /*left: -280px;*/
+    top: 370px;
+    left: -135px;
+    width: 493px;
+    height: auto;
+  }
+  .less-product {
+    width: 129px;
+    height: auto;
+    z-index: 3;
+    top: 320px;
+    left: -12px;
+  }
+  .product {
+    z-index: 4;
+    top: 300px;
+    left: -135px;
+    width: 141px;
+    height: auto;
+  }
+  .certified {
+    z-index: 5;
+    top: 650px;
+    left: 82.5px;
+    width: 126.75px;
+    height: auto;
+  }
+
+  /****Pure Nature****/
+  .pure-nature .container {
+    padding-left: 0px;
+  }
+  .guy-with-plant {
+    width: 555px;
+    height: auto;
+    padding-top: 20px;
+  }
+  .organic-img {
+    width: 115px;
+    left: 210px;
+    top: 50px;
+  }
+  .pure-nature__content__text {
+    margin-left: 23px;
+    /*  width: 800px;*/
+  }
+  .pure-nature__content__text img {
+    width: auto;
+    height: 60px;
+  }
+  .pure-nature__content p {
+    font-size: 20px;
+    line-height: 150%;
+    /*  padding-top: 10px;*/
+    padding-bottom: 25px;
+    hyphens: auto;
+  }
+  .pure-nature__content__title {
+    max-width: 650px;
+    padding: 25px 0 22px 0;
+  }
+  .pure-nature__content__title h3 {
+    font-size: 37px;
+    line-height: 100%;
+    padding-top: 0px;
+    padding-left: 15px;
+  }
+  /*
+.pure-nature__content p:first-child{
+    padding-top: 40px;
+}*/
+
+  /****ORDER ****/
+  .order__title h2 {
+    font-size: 40px;
+    padding-top: 50px;
+  }
+  .order__title p {
+    font-size: 20px;
+    padding: 15px 0 30px 0;
+  }
+  .order__button {
+    margin-right: 0px;
+  }
+  .btn {
+    font-size: 30px;
+    padding: 10px 10px;
+    margin-top: 50px;
+  } /*
+.btn:hover{
+    border: 3px solid #f6fdf8;
+    background-image: linear-gradient(to right, #dd9d3f , #feef81);
+}
+*/
+
+  /***MODAL FORM ***/
+  .input-area-modal {
+    z-index: 10;
+    margin-top: 42px;
+    border-radius: 10px;
+    max-width: 500px;
+  }
+  .close {
+    font-size: 100px;
+    padding-right: 100px;
+  }
+  .input-area-modal > h1 {
+    font-size: 37.5px;
+    padding-top: 25px;
+    padding-bottom: 45px;
+  }
+  .small-text {
+    font-size: 25px;
+    top: 22px;
+    left: 310px;
+  }
+  .only {
+    left: 110px;
+  }
+  .big-text {
+    font-size: 125px;
+    top: -22px;
+    left: 180px;
+  }
+  .big-text span {
+    font-size: 45.83px;
+    top: 80px;
+  }
+  .input-area__form input {
+    margin-left: 25px;
+    margin-bottom: 20px;
+    width: 455px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 25px;
+    padding-left: 15px;
+  }
+  .input-area__form input::placeholder {
+    font-size: 25px;
+    padding-left: 15px;
+    line-height: 50px;
+  }
+  .two-fields {
+    display: flex;
+    margin: 0;
+  }
+  .two-fields input {
+    width: 200px;
+  }
+  .two-fields :last-child {
+    width: 240px;
+    margin: 0 20px auto 0;
+  }
+  .input-area__form input[type="submit"] {
+    font-size: 35.5px;
+    border: 10px white;
+    border-radius: 0;
+    height: 70px;
+    margin-top: 5px;
+    margin-bottom: 25px;
+  }
+  .input-area__form input[type="submit"]:hover {
+    border: 3px solid #f6fdf8;
+    border-radius: 3px;
+  }
+
+  /**** Wondering what hemp oil can do for you ****/
+  .hemp-oil .container {
+    padding-right: 0;
+  }
+  .hemp-oil__content {
+    margin-top: 37.5px;
+    max-width: 967.5px;
+  }
+  .hemp-oil__content__img {
+    padding-right: 15px;
+  }
+  .hemp-oil__content__text {
+    z-index: 10;
+  }
+  .hemp-oil__content__text > h3 {
+    font-size: 37.5px;
+    padding-bottom: 26.25px;
+  }
+  .hemp-oil__content__text p {
+    font-size: 20px;
+    padding-bottom: 7.5px;
+  }
+  .hemp-oil__content__text ul {
+    height: 187.5px;
+    max-width: 656.25px;
+    margin-bottom: 7.5px;
+  }
+  .hemp-oil__content__text ul li {
+    font-size: 18.75px;
+    padding-top: 15px;
+  }
+  /*
+.hemp-oil__content__text ul li:after {
+    content: '';
+    height: 2px;
+    background: #88c500; 
+    display:block;
+}*/
+  .hemp-oil__content__text__note {
+    width: 787.5px;
+    margin-bottom: 40px;
+  }
+  .hemp-oil__content__text__note p {
+    font-size: 20px;
+    padding-left: 22.5px;
+    padding-right: 52.5px;
+    padding-bottom: 22.5px;
+  }
+  .hemp-oil__content__text__note__title h3 {
+    margin-top: 22.5px;
+    font-size: 25px;
+  }
+  .hemp-oil__content__text__note__title__img {
+    margin: 20.25px 15px 22.5px 18px;
+  }
+  .dropper {
+    left: -140px;
+    z-index: 3;
+    width: 200px;
+    height: auto;
+  }
+  .bottle {
+    left: -204px;
+    top: 208px;
+    z-index: 4;
+    width: 150px;
+    height: auto;
+  }
+  .label {
+    left: -207px;
+    top: 325px;
+    z-index: 5;
+    width: 151.5px;
+    height: auto;
+  }
+  .leaf {
+    left: -237px;
+    top: 186px;
+    z-index: 1;
+    width: 297px;
+    height: auto;
+  }
+  .plant {
+    z-index: 2;
+    left: -435px;
+    top: 193px;
+    width: 495.75px;
+    height: auto;
+  }
+
+  /****INGREDIENTS****/
+  .ingredients__content__img {
+    padding-top: 130px;
+    padding-right: 27px;
+  }
+  .ingredients__content__img img {
+    width: 400px;
+    height: auto;
+  }
+  .ingredients__content__text {
+    margin-top: 55px;
+    /*line-height: 150%;*/
+  }
+  .ingredients__content__text h5,
+  p,
+  li {
+    font-size: 20px;
+  }
+  .ingredients__content__text p,
+  .ingredients__content__text ul {
+    padding-bottom: 35px;
+  }
+  .ingredients__content__text li {
+    margin-left: 20px;
+    padding-left: 8px;
+  }
+  /*.ingredients__content__text__span{
+      padding-top: 35px;
+  }*/
+  .ingredients__content__text__span a {
+    border-bottom: 2px solid #88c500;
+  }
+
+  /**** TEST TUBES ****/
+
+  .test-tubes .container {
+    background-image: url("../assets/slider1.png");
+    height: 600px;
+  }
+
+  .test-tubes__certified-img {
+    top: 25px;
+    left: 50px;
+    width: 120px;
+    height: auto;
+  }
+  .test-tubes__organic-img {
+    top: 112px;
+    left: 154px;
+    width: 110px;
+    height: auto;
+  }
+  .test-tubes__text {
+    top: 80px;
+    left: 267px;
+    width: 553px;
+  }
+  .test-tubes__text h5 {
+    font-size: 30px;
+    padding-bottom: 40px;
+  }
+  .test-tubes__text p {
+    font-weight: 500;
+    font-size: 30px;
+  }
+
+  /**** LAST ORDER ****/
+  .last-order__note p {
+    font-size: 20px;
+    padding-top: 16px;
+    padding-left: 65px;
+    padding-bottom: 16px;
+    text-align: center;
+  }
+  .last-order__content {
+    padding-bottom: 40px;
+  }
+  .last-order__figure__left {
+    display: flex;
+    /*height: auto;*/
+  }
+  .last-order__figure__right {
+    display: flex;
+    /*height: auto;*/
+  }
+  .last-order__figure__right img,
+  .last-order__figure__left img {
+    height: 62.667px;
+    width: auto;
+  }
+  .rectangle {
+    width: 350px;
+    height: 62.667px;
+  }
+
+  /****FOOTER****/
+  footer .container {
+    padding: 0 20px;
+  }
+  .footer__container a {
+    font-size: 18px;
+  }
+  .footer__text__title {
+    font-size: 22px;
+    line-height: 125%;
+    padding-bottom: 30px;
+  }
+  .footer__text__store-information {
+    max-width: 300px;
+  }
+  .footer__text__store-information a {
+    padding-left: 10px;
+  }
+  .footer__text__store-information img {
+    width: 32px;
+    height: auto;
+  }
+  .footer__text__store-information__phone {
+    margin-top: 25px;
+    margin-bottom: 40px;
+  }
+  .footer__text__store-information__mail {
+    margin-bottom: 110px;
+  }
+  .footer-img {
+    margin: 0;
+  }
+  .footer__text__store-information .footer-img {
+    padding-top: 5px;
+  }
+  .footer__text__my-accaunt {
+    margin-left: 0;
+  }
+  .footer__text__information {
+    margin-right: 40px;
+  }
+  .footer__text__social-media {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .footer__text__social-media .footer__text__title {
+    padding-left: 13px;
+    padding-bottom: 40px;
+  }
+  .footer__text__social-media__facebook {
+    margin-bottom: 25px;
+  }
+  .footer__text__social-media__facebook a img,
+  .footer__text__social-media__instagram a img {
+    width: 300px;
+    height: auto;
+  }
+  .footer__text__social-media__facebook a span,
+  .footer__text__social-media__instagram a span {
+    font-size: 23px;
+  }
+}
+
+@media only screen and (max-width: 1139px) {
+  header p {
+    font-size: 11.5px;
+  }
+  .container {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  .warning {
+    font-size: 15px;
+  }
+
+  /**Main*******/
+  .about {
+    display: flex;
+    justify-content: center;
+  }
+  .about__logo {
+    padding: 15px 0 25px;
+  }
+  .about__logo img {
+    width: 155px;
+    height: auto;
+  }
+  .about__greenBoozt {
+    justify-content: space-around;
+  }
+  .about__greenBoozt__content {
+    min-width: 380px;
+  }
+  .about__greenBoozt__images {
+    min-width: 300px;
+  }
+  .about__greenBoozt__content .img img {
+    width: 35px;
+    height: auto;
+  }
+  .about__greenBoozt__content__h1 h2 {
+    font-size: 40.25px;
+  }
+  .about__greenBoozt__content__h1 p {
+    font-size: 15px;
+  }
+  .about__greenBoozt__content__paragraph1/*, .about__greenBoozt__content__paragraph2,.about__greenBoozt__content__paragraph3*/ {
+    width: 410.25px;
+    margin: 18px 0 0;
+  }
+  .about__greenBoozt__content__paragraph1 .img {
+    margin: 7.2px 0 0;
+  }
+  .about__greenBoozt__content__paragraph2 {
+    width: 320px;
+    margin: 11.4px 0;
+  }
+  .about__greenBoozt__content__paragraph3 {
+    width: 290px;
+    margin: 0;
+  }
+  .about__greenBoozt__content__paragraph2 .img,
+  .about__greenBoozt__content__paragraph3 .img {
+    margin-top: 7px;
+  }
+
+  .about__greenBoozt__content__text1,
+  .about__greenBoozt__content__text2,
+  .about__greenBoozt__content__text3 {
+    margin-left: 12px;
+    z-index: 5;
+  }
+  .about__greenBoozt__content__text h3 {
+    font-size: 26px;
+    padding: 0;
+    line-height: 100%;
+    padding-bottom: 5px;
+    /*   display: flex;
+        flex-direction: column;
+        justify-content: space-between;*/
+  }
+  .about__greenBoozt__content__text p {
+    font-size: 14px;
+    line-height: 120%;
+  }
+  .input-area {
+    display: none;
+  }
+  .smilling-girl {
+    max-width: 450px;
+    height: auto;
+    left: -140px;
+    top: 27px;
+    /*position: absolute;
+        z-index: 0;
+        left: -520px;
+        top: 72px;*/
+  }
+  .cannabis1 {
+    left: -150px;
+    top: 275px;
+    z-index: 1;
+    width: 198px;
+    height: auto;
+  }
+  .cannabis {
+    /*position: absolute;
+        /*left: -280px;*/
+    top: 230px;
+    left: 30px;
+    width: 280px;
+    height: auto;
+  }
+
+  .less-product {
+    width: 77.4px;
+    height: auto;
+    z-index: 3;
+    top: 185px;
+    left: 85px;
+  }
+  .product {
+    z-index: 4;
+    top: 170px;
+    left: 10px;
+    width: 84.6px;
+    height: auto;
+  }
+  .certified {
+    z-index: 5;
+    top: 390px;
+    left: 140px;
+    width: 76px;
+    height: auto;
+  }
+
+  /****Pure Nature****/
+  .pure-nature {
+    margin-top: 45px;
+  }
+  .pure-nature .container {
+    padding-left: 0px;
+  }
+  .guy-with-plant {
+    width: 390px;
+    height: auto;
+    padding-top: 20px;
+  }
+  .organic-img {
+    width: 80px;
+    left: 150px;
+    top: 45px;
+  }
+  .pure-nature__content__text {
+    margin-left: 16px;
+    /*  width: 600px;*/
+  }
+  .pure-nature__content__text img {
+    width: auto;
+    height: 42px;
+  }
+  .pure-nature__content p {
+    font-size: 14px;
+    line-height: 150%;
+    /*  padding-top: 10px;*/
+    padding-bottom: 17px;
+    hyphens: auto;
+  }
+  .pure-nature__content__title {
+    max-width: 650px;
+    padding: 13px 0 16px 0;
+  }
+  .pure-nature__content__title h3 {
+    font-size: 26px;
+    line-height: 100%;
+    padding-left: 11px;
+  }
+
+  /****ORDER ****/
+  .order__title h2 {
+    font-size: 25px;
+    padding-top: 35px;
+  }
+  .order__title p {
+    font-size: 12px;
+    padding: 10px 0 20px 0;
+  }
+  .order__button {
+    margin-right: 0px;
+  }
+  .btn {
+    font-size: 22px;
+    padding: 6.7px 6.7px;
+    margin-top: 35px;
+  }
+
+  /***MODAL FORM ***/
+  .input-area-modal {
+    margin-top: 42px;
+    border-radius: 10px;
+    max-width: 350px;
+  }
+  .close {
+    font-size: 60px;
+    padding-right: 60px;
+  }
+  .input-area-modal > h1 {
+    font-size: 26px;
+    padding-top: 25px;
+    padding-bottom: 45px;
+  }
+  .input-area__img img {
+    width: 350px;
+    height: auto;
+  }
+  .input-area__img p {
+    text-shadow: 2px 2px 8px grey;
+  }
+  .small-text {
+    font-size: 17px;
+    top: 22px;
+    left: 215px;
+  }
+  .only {
+    left: 80px;
+  }
+  .big-text {
+    font-size: 80px;
+    top: -3px;
+    left: 130px;
+  }
+  .big-text span {
+    font-size: 30.83px;
+    top: 48px;
+  }
+  /*
+.input-area__form{
+} */
+  .input-area__form input {
+    margin-left: 17px;
+    margin-bottom: 14px;
+    width: 318.5px;
+    height: 35px;
+    border-radius: 7px;
+    font-size: 17px;
+    padding-left: 11px;
+  }
+  .input-area__form input::placeholder {
+    font-size: 17px;
+    padding-left: 10px;
+  }
+  .two-fields input {
+    width: 140px;
+  }
+  .two-fields :last-child {
+    /*width: 240px;*/
+    width: 168px;
+    margin: 0 14px auto 0;
+  }
+  .input-area__form input[type="submit"] {
+    font-size: 24.85px;
+    border: 7px white;
+    border-radius: 0;
+    height: 49px;
+    margin-top: 5px;
+    margin-bottom: 25px;
+  }
+  .input-area__form input[type="submit"]:hover {
+    border: 3px solid #f6fdf8;
+    border-radius: 3px;
+  }
+
+  /**** Wondering what hemp oil can do for you ****/
+  .hemp-oil .container {
+    padding-right: 0;
+  }
+  .hemp-oil__content {
+    margin-top: 26.25px;
+    max-width: 677.25px;
+  }
+  .hemp-oil__content__img {
+    padding-right: 10.5px;
+  }
+  .hemp-oil__content__text {
+    z-index: 10;
+  }
+  .hemp-oil__content__text > h3 {
+    font-size: 26.25px;
+    padding-bottom: 18.375px;
+  }
+  .hemp-oil__content__text p {
+    font-size: 14px;
+    padding-bottom: 5.25px;
+  }
+  .hemp-oil__content__text ul {
+    height: 131.25px;
+    max-width: 459.3px;
+    margin-bottom: 5.25px;
+  }
+  .hemp-oil__content__text ul li {
+    font-size: 13.125px;
+    padding-top: 10.5px;
+    color: #dd9d3f;
+  }
+  /*
+.hemp-oil__content__text ul li:after {
+    content: '';
+    height: 2px;
+    background: #88c500; 
+    display:block;
+}*/
+  .hemp-oil__content__text__note {
+    width: 551.25px;
+    margin-bottom: 28px;
+  }
+  .hemp-oil__content__text__note p {
+    font-size: 14px;
+    padding-left: 15.75px;
+    padding-right: 36.75px;
+    padding-bottom: 15.75px;
+  }
+  .hemp-oil__content__text__note__title h3 {
+    margin-top: 15.75px;
+    font-size: 17.5px;
+  }
+  .hemp-oil__content__text__note__title__img {
+    margin: 14.175px 10.5px 15.75px 12.6px;
+  }
+  .dropper {
+    left: -128px;
+    z-index: 3;
+    width: 140px;
+    height: auto;
+  }
+  .bottle {
+    left: -172px;
+    top: 145px;
+    z-index: 4;
+    width: 105px;
+    height: auto;
+  }
+  .label {
+    left: -173px;
+    top: 223px;
+    z-index: 5;
+    width: 106px;
+    height: auto;
+  }
+  .leaf {
+    left: -196px;
+    top: 135px;
+    z-index: 1;
+    width: 207.9px;
+    height: auto;
+  }
+  .plant {
+    z-index: 2;
+    left: -336px;
+    top: 129px;
+    width: 347px;
+    height: auto;
+  }
+
+  /****INGREDIENTS****/
+  .ingredients__content__img {
+    padding-top: 90px;
+    padding-right: 19px;
+  }
+  .ingredients__content__img img {
+    width: 280px;
+    height: auto;
+  }
+  .ingredients__content__text {
+    margin-top: 40px;
+    /*line-height: 150%;*/
+  }
+  .ingredients__content__text h5,
+  .ingredients__content__text p,
+  .ingredients__content__text li {
+    font-size: 14px;
+  }
+  .ingredients__content__text p,
+  .ingredients__content__text ul {
+    padding-bottom: 25px;
+  }
+  .ingredients__content__text li {
+    margin-left: 14px;
+    padding-left: 6px;
+  }
+  /*.ingredients__content__text__span{
+    padding-top: 35px;
+}*/
+  .ingredients__content__text__span a {
+    border-bottom: 2px solid #88c500;
+  }
+
+  /**** TEST TUBES ****/
+  .test-tubes .container {
+    background-image: url("../assets/slider2.png");
+    height: 339px;
+  }
+  .test-tubes__certified-img {
+    top: 11px;
+    left: 15px;
+    width: 70px;
+    height: auto;
+  }
+  .test-tubes__organic-img {
+    top: 60px;
+    left: 77px;
+    width: 70px;
+    height: auto;
+  }
+  .test-tubes__text {
+    top: 13px;
+    left: 151px;
+    width: 300px;
+  }
+  .test-tubes__text h5 {
+    font-size: 22px;
+    padding-bottom: 25px;
+  }
+  .test-tubes__text p {
+    font-size: 22px;
+  }
+
+  /**** LAST ORDER ****/
+  .last-order__note p {
+    font-size: 14px;
+    padding-top: 15px;
+    padding-left: 0px;
+    padding-bottom: 15px;
+    text-align: center;
+  }
+  .last-order__content {
+    padding-bottom: 40px;
+  }
+  .last-order__figure__right img,
+  .last-order__figure__left img {
+    height: 46px;
+    width: auto;
+  }
+  .rectangle {
+    width: 200px;
+    height: 46px;
+  }
+
+  /****FOOTER****/
+  footer .container {
+    padding: 0 10px;
+  }
+  .footer__container a {
+    font-size: 12px;
+  }
+  .footer__text__title {
+    font-size: 13px;
+    line-height: 125%;
+    padding-bottom: 30px;
+  }
+  .footer__text__store-information {
+    max-width: 150px;
+  }
+  .footer__text__store-information a {
+    padding-left: 8px;
+  }
+  .footer__text__store-information img {
+    width: 22px;
+    height: auto;
+  }
+  .footer__text__store-information__phone {
+    margin-top: 14px;
+    margin-bottom: 18px;
+  }
+  .footer__text__store-information__mail {
+    margin-bottom: 50px;
+  }
+  .footer-img {
+    margin: 0;
+  }
+  .footer__text__store-information .footer-img {
+    padding-top: 5px;
+  }
+  .footer__text__my-accaunt {
+    margin: 0;
+  }
+  .footer__text__information {
+    margin-right: 45px;
+  }
+  .footer__text__social-media {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .footer__text__social-media .footer__text__title {
+    padding-left: 13px;
+    padding-bottom: 30px;
+  }
+  .footer__text__social-media__facebook {
+    margin-bottom: 15px;
+  }
+  .footer__text__social-media__facebook a img,
+  .footer__text__social-media__instagram a img {
+    width: 140px;
+    height: auto;
+  }
+  .footer__text__social-media__facebook a span,
+  .footer__text__social-media__instagram a span {
+    font-size: 15px;
+    padding-bottom: 8px;
+  }
+}
+
+@media only screen and (max-width: 719px) {
+  header p {
+    font-size: 8.5px;
+  }
+  .container {
+    max-width: 540px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  .warning {
+    font-size: 10px;
+  }
+
+  /**Main*******/
+  .about {
+    display: flex;
+    justify-content: center;
+  }
+  .about__logo {
+    padding: 10px 0 17px;
+  }
+  .about__logo img {
+    width: 115px;
+    height: auto;
+  }
+  .about__greenBoozt {
+    justify-content: space-around;
+  }
+  .about__greenBoozt__content {
+    min-width: 250px;
+  }
+  .about__greenBoozt__images {
+    min-width: 260px;
+  }
+  .about__greenBoozt__content .img img {
+    width: 23px;
+    height: auto;
+  }
+  .about__greenBoozt__content__h1 h2 {
+    font-size: 28.25px;
+  }
+  .about__greenBoozt__content__h1 p {
+    font-size: 10px;
+  }
+  .about__greenBoozt__content__paragraph1/*, .about__greenBoozt__content__paragraph2,.about__greenBoozt__content__paragraph3*/ {
+    display: flex;
+    width: 310px;
+    margin: 12px 0 0;
+  }
+  .about__greenBoozt__content__paragraph1 .img {
+    margin: 5px 0 0;
+  }
+  .about__greenBoozt__content__paragraph2 {
+    display: flex;
+    width: 265px;
+    margin: 8px 0;
+  }
+  .about__greenBoozt__content__paragraph3 {
+    display: flex;
+    width: 240px;
+    margin: 0;
+  }
+  .about__greenBoozt__content__paragraph2 .img,
+  .about__greenBoozt__content__paragraph3 .img {
+    margin-top: 5px;
+  }
+  .about__greenBoozt__content__text1,
+  .about__greenBoozt__content__text2,
+  .about__greenBoozt__content__text3 {
+    margin-left: 8px;
+    z-index: 5;
+  }
+  .about__greenBoozt__content__text h3 {
+    font-size: 20px;
+    padding: 0;
+    line-height: 100%;
+    padding-bottom: 3px;
+    /*   display: flex;
+        flex-direction: column;
+        justify-content: space-between;*/
+  }
+  .about__greenBoozt__content__text p {
+    font-size: 12px;
+    line-height: 120%;
+  }
+  .input-area {
+    display: none;
+  }
+  .smilling-girl {
+    max-width: 300px;
+    height: auto;
+    left: -40px;
+    top: 41px;
+    /*position: absolute;
+        z-index: 0;
+        left: -520px;
+        top: 72px;*/
+  }
+  .cannabis1 {
+    left: -70px;
+    top: 215px;
+    z-index: 1;
+    width: 133px;
+    height: auto;
+  }
+  .cannabis {
+    /*position: absolute;
+        /*left: -280px;*/
+    top: 170px;
+    left: 45px;
+    width: 200px;
+    height: auto;
+  }
+  .less-product {
+    width: 55px;
+    height: auto;
+    z-index: 3;
+    top: 145px;
+    left: 95px;
+  }
+  .product {
+    z-index: 4;
+    top: 135px;
+    left: 40px;
+    width: 60px;
+    height: auto;
+  }
+  .certified {
+    z-index: 5;
+    top: 295px;
+    left: 137px;
+    width: 51px;
+    height: auto;
+  }
+  /****Pure Nature****/
+  .pure-nature {
+    margin-top: 30px;
+  }
+  .pure-nature .container {
+    padding-left: 0px;
+  }
+  .guy-with-plant {
+    width: 300px;
+    height: auto;
+    padding-top: 20px;
+  }
+  .organic-img {
+    width: 58px;
+    left: 118px;
+    top: 40px;
+  }
+  .pure-nature__content__text {
+    margin-left: 14px;
+    /*  width: 510px;*/
+  }
+  .pure-nature__content__text img {
+    width: auto;
+    height: 36px;
+  }
+
+  .pure-nature__content p {
+    font-size: 11.5px;
+    line-height: 150%;
+    /*  padding-top: 10px;*/
+    padding-bottom: 14.5px;
+    hyphens: auto;
+  }
+  .pure-nature__content__title {
+    max-width: 552px;
+    padding: 11px 0 14px 0;
+  }
+  .pure-nature__content__title h3 {
+    font-size: 22px;
+    line-height: 100%;
+    padding-left: 10px;
+  }
+
+  /****ORDER ****/
+  .order__title h2 {
+    font-size: 30px;
+    padding-top: 30px;
+  }
+  .order__title p {
+    font-size: 14.5px;
+    padding: 8.5px 0 17px 0;
+  }
+  .order__button {
+    margin-right: 0px;
+  }
+  .btn {
+    font-size: 17.5px;
+    padding: 6.7px 6.7px;
+    margin-top: 30px;
+  }
+
+  /***MODAL FORM ***/
+  .input-area-modal {
+    margin-top: 34px;
+    border-radius: 8px;
+    max-width: 280px;
+  }
+  .close {
+    font-size: 48px;
+    padding-right: 48px;
+  }
+  .input-area-modal > h1 {
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 35px;
+  }
+  .input-area__img img {
+    width: 280px;
+    height: auto;
+  }
+  .input-area__img p {
+    text-shadow: 2px 2px 8px grey;
+  }
+  .small-text {
+    font-size: 12.5px;
+    top: 9px;
+    left: 165px;
+  }
+  .only {
+    left: 60px;
+  }
+  .big-text {
+    font-size: 64px;
+    top: -13px;
+    left: 95px;
+  }
+  .big-text span {
+    font-size: 24.5px;
+    top: 41px;
+  }
+  /*
+.input-area__form{
+} */
+  .input-area__form input {
+    margin-left: 13.5px;
+    margin-bottom: 11px;
+    width: 254.8px;
+    height: 28px;
+    border-radius: 7px;
+    font-size: 13.5px;
+    padding-left: 9px;
+  }
+  .input-area__form input::placeholder {
+    font-size: 13.5px;
+    padding-left: 8px;
+  }
+  .two-fields input {
+    width: 112px;
+  }
+  .two-fields :last-child {
+    /*width: 240px;*/
+    width: 134.4px;
+    margin: 0 11px auto 0;
+  }
+  .input-area__form input[type="submit"] {
+    font-size: 20px;
+    border: 6px white;
+    border-radius: 0;
+    height: 39px;
+    margin-top: 4px;
+    margin-bottom: 20px;
+  }
+  .input-area__form input[type="submit"]:hover {
+    border: 3px solid #f6fdf8;
+    border-radius: 3px;
+  }
+
+  /**** Wondering what hemp oil can do for you ****/
+  .hemp-oil .container {
+    padding-right: 0;
+  }
+  .hemp-oil__content {
+    margin-top: 22.3px;
+    max-width: 575.5px;
+  }
+  .hemp-oil__content__img {
+    padding-right: 9px;
+  }
+  .heart {
+    width: 35px;
+    height: auto;
+  }
+  .hemp-oil__content__text {
+    z-index: 10;
+  }
+  .hemp-oil__content__text > h3 {
+    font-size: 22.3px;
+    padding-bottom: 15.6px;
+  }
+  .hemp-oil__content__text p {
+    font-size: 11.5px;
+    padding-bottom: 5.25px;
+  }
+  .hemp-oil__content__text ul {
+    height: 131.25px;
+    max-width: 459.3px;
+    margin-bottom: 4.5px;
+  }
+  .hemp-oil__content__text ul li {
+    font-size: 11.15px;
+    padding-top: 8.925px;
+    color: #dd9d3f;
+  }
+  /*
+.hemp-oil__content__text ul li:after {
+    content: '';
+    height: 2px;
+    background: #88c500; 
+    display:block;
+}*/
+  .hemp-oil__content__text__note {
+    width: 456.5px;
+    margin-bottom: 23.8px;
+    border: 3px solid #88c500;
+  }
+  .hemp-oil__content__text__note p {
+    font-size: 11.15px;
+    padding-left: 13.4px;
+    padding-right: 31.25px;
+    padding-bottom: 15.75px;
+  }
+  .hemp-oil__content__text__note__title h3 {
+    margin-top: 13.4px;
+    font-size: 14.9px;
+  }
+  .hemp-oil__content__text__note__title__img {
+    margin: 12px 8.9px 2.36px 10.7px;
+  }
+  .note {
+    width: 20px;
+    height: auto;
+  }
+  .dropper {
+    left: -119px;
+    z-index: 3;
+    width: 119px;
+    height: auto;
+  }
+  .bottle {
+    left: -160px;
+    top: 124px;
+    z-index: 4;
+    width: 89px;
+    height: auto;
+  }
+  .label {
+    left: -162px;
+    top: 191px;
+    z-index: 5;
+    width: 90px;
+    height: auto;
+  }
+  .leaf {
+    left: -177px;
+    top: 114px;
+    z-index: 1;
+    width: 177px;
+    height: auto;
+  }
+  .plant {
+    z-index: 2;
+    left: -295px;
+    top: 104px;
+    width: 295px;
+    height: auto;
+  }
+
+  /****INGREDIENTS****/
+  .ingredients__content__img {
+    padding-top: 80px;
+    padding-right: 17px;
+  }
+  .ingredients__content__img img {
+    width: 240px;
+    height: auto;
+  }
+  .ingredients__content__text {
+    margin-top: 35px;
+    /*line-height: 150%;*/
+  }
+  .ingredients__content__text h5,
+  p,
+  li {
+    font-size: 11.5px;
+  }
+  .ingredients__content__text p,
+  .ingredients__content__text ul {
+    padding-bottom: 15px;
+  }
+  .ingredients__content__text li {
+    margin-left: 12px;
+    padding-left: 5px;
+  }
+  /*.ingredients__content__text__span{
+    padding-top: 35px;
+}*/
+  .ingredients__content__text__span a {
+    border-bottom: 2px solid #88c500;
+  }
+
+  /**** TEST TUBES ****/
+  .test-tubes .container {
+    background-image: url("../assets/slider3.png");
+    height: 254px;
+  }
+  .test-tubes__certified-img {
+    top: 7px;
+    left: 5px;
+    width: 55px;
+    height: auto;
+  }
+  .test-tubes__organic-img {
+    top: 44px;
+    left: 55px;
+    width: 55px;
+    height: auto;
+  }
+  .test-tubes__text {
+    top: 10px;
+    left: 119px;
+    width: 220px;
+  }
+  .test-tubes__text h5 {
+    font-size: 17px;
+    padding-bottom: 8px;
+  }
+  .test-tubes__text p {
+    font-size: 17px;
+  }
+  /**** LAST ORDER ****/
+  .last-order__note p {
+    font-size: 11.5px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+  }
+  .last-order__content {
+    padding-bottom: 30px;
+  }
+  .last-order__figure__right img,
+  .last-order__figure__left img {
+    height: 40.73px;
+    width: auto;
+  }
+  .rectangle {
+    width: 130px;
+    height: 40.73px;
+  }
+
+  /****FOOTER****/
+  footer .container {
+    padding: 0 10px;
+  }
+  .footer__container a {
+    font-size: 10px;
+  }
+
+  .footer__text__title {
+    font-size: 11px;
+    line-height: 125%;
+    padding-bottom: 15px;
+  }
+  .footer__text__store-information {
+    max-width: 100px;
+  }
+  .footer__text__store-information a {
+    padding-left: 8px;
+  }
+  .footer__text__store-information img {
+    width: 18px;
+    height: auto;
+  }
+  .footer__text__store-information__phone {
+    margin-top: 8px;
+    margin-bottom: 10px;
+  }
+  .footer__text__store-information__mail {
+    margin-bottom: 50px;
+  }
+  .footer-img {
+    margin: 0;
+  }
+  .footer__text__store-information .footer-img {
+    padding-top: 5px;
+  }
+  .footer__text__my-accaunt {
+    margin: 0;
+  }
+  .footer__text__information {
+    margin-right: 30px;
+  }
+  .footer__text__social-media {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .footer__text__social-media .footer__text__title {
+    padding-left: 8px;
+    padding-bottom: 20px;
+  }
+  .footer__text__social-media__facebook {
+    margin-bottom: 15px;
+  }
+  .footer__text__social-media__facebook a img,
+  .footer__text__social-media__instagram a img {
+    width: 100px;
+    height: auto;
+  }
+  .footer__text__social-media__facebook a span,
+  .footer__text__social-media__instagram a span {
+    font-size: 10px;
+    padding-bottom: 5px;
+  }
+}
+
+@media only screen and (max-width: 539px) {
+  header p {
+    font-size: 5px;
+  }
+  .container {
+    max-width: 320px;
+    margin: 0 auto;
+    padding: 0 10px;
+  }
+  .warning {
+    font-size: 6px;
+  }
+
+  /**Main*******/
+  .about {
+    display: flex;
+    justify-content: center;
+  }
+  .about__logo {
+    padding: 6px 0 12px;
+  }
+  .about__logo img {
+    width: 69px;
+    height: auto;
+  }
+
+  .about__greenBoozt {
+    justify-content: space-around;
+  }
+  .about__greenBoozt__content {
+    min-width: 150px;
+  }
+  .about__greenBoozt__images {
+    min-width: 150px;
+  }
+  .about__greenBoozt__content .img img {
+    width: 14px;
+    height: auto;
+  }
+  .about__greenBoozt__content__h1 h2 {
+    font-size: 17px;
+  }
+  .about__greenBoozt__content__h1 p {
+    font-size: 6px;
+  }
+  .about__greenBoozt__content__paragraph1/*, .about__greenBoozt__content__paragraph2,.about__greenBoozt__content__paragraph3*/ {
+    display: flex;
+    width: 186px;
+    margin: 7px 0 0;
+  }
+  .about__greenBoozt__content__paragraph1 .img {
+    margin: 5px 0 0;
+  }
+  .about__greenBoozt__content__paragraph2 {
+    display: flex;
+    width: 159px;
+    margin: 8px 0;
+  }
+  .about__greenBoozt__content__paragraph3 {
+    display: flex;
+    width: 144px;
+    margin: 0;
+  }
+  .about__greenBoozt__content__paragraph2 .img,
+  .about__greenBoozt__content__paragraph3 .img {
+    margin-top: 3px;
+  }
+
+  .about__greenBoozt__content__text1,
+  .about__greenBoozt__content__text2,
+  .about__greenBoozt__content__text3 {
+    margin-left: 5px;
+    z-index: 5;
+  }
+  .about__greenBoozt__content__text h3 {
+    font-size: 12px;
+    padding: 0;
+    line-height: 100%;
+    padding-bottom: 2px;
+    /*   display: flex;
+        flex-direction: column;
+        justify-content: space-between;*/
+  }
+  .about__greenBoozt__content__text p {
+    font-size: 7.2px;
+    line-height: 120%;
+  }
+  .input-area {
+    display: none;
+  }
+  .smilling-girl {
+    max-width: 180px;
+    height: auto;
+    left: -30px;
+    top: 35px;
+    /*position: absolute;
+        z-index: 0;
+        left: -520px;
+        top: 72px;*/
+  }
+  .cannabis1 {
+    left: -40px;
+    top: 130px;
+    z-index: 1;
+    width: 90px;
+    height: auto;
+  }
+  .cannabis {
+    /*position: absolute;
+        /*left: -280px;*/
+    top: 115px;
+    left: 25px;
+    width: 120px;
+    height: auto;
+  }
+
+  .less-product {
+    width: 33px;
+    height: auto;
+    z-index: 3;
+    top: 100px;
+    left: 55px;
+  }
+  .product {
+    z-index: 4;
+    top: 95px;
+    left: 24px;
+    width: 36px;
+    height: auto;
+  }
+  .certified {
+    z-index: 5;
+    top: 190px;
+    left: 80px;
+    width: 30px;
+    height: auto;
+  }
+  /****Pure Nature****/
+  .pure-nature {
+    margin-top: 25px;
+  }
+  .pure-nature .container {
+    padding-left: 0px;
+  }
+  .pure-nature__content {
+    display: block;
+  }
+  .pure-nature__content__img {
+    display: flex;
+    justify-content: center;
+  }
+  .guy-with-plant {
+    width: 200px;
+    height: auto;
+    padding-top: 0px;
+    /* margin: 0 auto;*/
+  }
+  .organic-img {
+    width: 40px;
+    left: 133px;
+    top: 13px;
+  }
+  .pure-nature__content__text {
+    margin-left: 14px;
+  }
+  .pure-nature__content__text img {
+    width: auto;
+    height: 36px;
+  }
+
+  .pure-nature__content p {
+    font-size: 12px;
+    line-height: 150%;
+    padding-bottom: 17px;
+    hyphens: auto;
+  }
+  .pure-nature__content__title {
+    max-width: 650px;
+    padding: 13px 0 16px 0;
+  }
+  .pure-nature__content__title h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+    padding-left: 11px;
+  }
+
+  /****ORDER ****/
+  .order__title h2 {
+    font-size: 18px;
+    padding-top: 18px;
+  }
+  .order__title p {
+    font-size: 9px;
+    padding: 5px 0 10px 0;
+  }
+  .order__button {
+    margin-right: 0px;
+  }
+  .btn {
+    font-size: 10.5px;
+    padding: 4px 4px;
+    margin-top: 18px;
+  }
+
+  /**** MODAL WINDOW***/
+  .input-area-modal {
+    margin-top: 20px;
+    border-radius: 4.5px;
+    max-width: 168px;
+  }
+  .close {
+    font-size: 29px;
+    padding-right: 29px;
+  }
+  .input-area-modal > h1 {
+    font-size: 12px;
+    padding-top: 12px;
+    padding-bottom: 21px;
+  }
+  .input-area__img img {
+    width: 168px;
+    height: auto;
+  }
+  .input-area__img p {
+    text-shadow: 2px 2px 8px grey;
+  }
+  .small-text {
+    font-size: 8px;
+    top: 6px;
+    left: 104px;
+  }
+  .only {
+    left: 40px;
+  }
+  .big-text {
+    font-size: 38.5px;
+    top: -7px;
+    left: 62px;
+  }
+  .big-text span {
+    font-size: 15px;
+    top: 24px;
+  }
+  /*
+.input-area__form{
+} */
+  .input-area__form input {
+    margin-left: 7.5px;
+    margin-bottom: 6.5px;
+    width: 153px;
+    height: 17px;
+    border-radius: 5px;
+    font-size: 8px;
+    padding-left: 5.5px;
+  }
+  .input-area__form input::placeholder {
+    font-size: 8px;
+    padding-left: 5px;
+  }
+  .two-fields input {
+    width: 67px;
+  }
+  .two-fields :last-child {
+    /*width: 240px;*/
+    width: 80.8px;
+    margin: 0 6.5px auto 0;
+  }
+  .input-area__form input[type="submit"] {
+    font-size: 12px;
+    border: 4px white;
+    border-radius: 0;
+    height: 23px;
+    margin-top: 2.5px;
+    margin-bottom: 12px;
+  }
+  .input-area__form input[type="submit"]:hover {
+    border: 2px solid #f6fdf8;
+    border-radius: 2px;
+  }
+
+  /**** Wondering what hemp oil can do for you ****/
+  .hemp-oil .container {
+    padding-right: 0;
+  } /*
+.hemp-oil__container{
+    display: block;
+}*/
+  .hemp-oil__content {
+    margin-top: 13.4px;
+    max-width: 345.5px;
+  }
+  .hemp-oil__content__img {
+    padding-right: 5px;
+  }
+  .heart {
+    width: 20px;
+    height: auto;
+  }
+  .hemp-oil__content__text {
+    z-index: 10;
+  }
+  .hemp-oil__content__text > h3 {
+    font-size: 20px;
+    padding-bottom: 8.5px;
+  }
+  .hemp-oil__content__text p {
+    font-size: 12px;
+    padding-bottom: 3px;
+    /*color: #567f00;*/
+    font-weight: 600;
+    /* background: linear-gradient(135deg, #567f00 20%, rgb(175, 175, 125) 70%);*/
+    background: linear-gradient(135deg, #567f00 20%, #f7993c 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .hemp-oil__content__text ul {
+    max-width: 100%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    height: auto;
+  }
+  .hemp-oil__content__text ul li {
+    font-size: 12px;
+    padding-top: 5px;
+    color: #88c500;
+    margin: auto;
+    justify-content: center;
+  }
+  /*
+.hemp-oil__content__text ul li:after {
+    content: '';
+    height: 2px;
+    background: #88c500; 
+    display:block;
+}*/
+  .hemp-oil__content__text__note {
+    width: 260px;
+    margin-bottom: 13px;
+    border: 2px solid #88c500;
+  }
+  .hemp-oil__content__text__note p {
+    font-size: 12px;
+    padding-left: 8px;
+    padding-right: 19px;
+    padding-bottom: 9px;
+    font-weight: 400;
+    /*color: linear-gradient;*/
+    color: #567f00;
+    /* background: linear-gradient(135deg, #12BCB0 20%, #FABE0E 70%);*/
+  }
+  .hemp-oil__content__text__note__title h3 {
+    margin-top: 8px;
+    font-size: 15px;
+  }
+  .hemp-oil__content__text__note__title__img {
+    margin: 7.5px 5px 1.4px 6.5px;
+  }
+  .note {
+    width: 12px;
+    height: auto;
+  }
+  .dropper {
+    left: -75px;
+    z-index: 3;
+    width: 75px;
+    height: auto;
+  }
+  .bottle {
+    left: -98px;
+    top: 74px;
+    z-index: 4;
+    width: 50px;
+    height: auto;
+  }
+  .label {
+    left: -99px;
+    top: 113px;
+    z-index: 5;
+    width: 50px;
+    height: auto;
+  }
+  .leaf {
+    left: -100px;
+    top: 60px;
+    z-index: 1;
+    width: 100px;
+    height: auto;
+  }
+  .plant {
+    z-index: 2;
+    left: -180px;
+    top: 53px;
+    width: 180px;
+    height: auto;
+  }
+
+  /****INGREDIENTS****/
+  .ingredients__content {
+    display: block;
+  }
+  .ingredients__content__img {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  .ingredients__content__img img {
+    width: 145px;
+    height: auto;
+  }
+  .ingredients__content__text {
+    margin-top: 10px;
+    padding-left: 10px;
+    /* text-align: center;
+    /*line-height: 150%;*/
+  }
+  .ingredients__content__text h5 {
+    text-align: center;
+  }
+  .ingredients__content__text h5,
+  p,
+  li {
+    font-size: 12px;
+  }
+  .ingredients__content__text p,
+  .ingredients__content__text ul {
+    padding-bottom: 10px;
+  }
+  .ingredients__content__text li {
+    margin-left: 13px;
+    padding-left: 3px;
+  }
+  /*.ingredients__content__text__span{
+    padding-top: 35px;
+}*/
+  .ingredients__content__text__span a {
+    border-bottom: 1px solid #88c500;
+  }
+  /**** TEST TUBES ****/
+
+  .test-tubes .container {
+    background-image: url("../assets/slider4.png");
+    height: 151px;
+  }
+
+  .test-tubes__certified-img {
+    top: 5px;
+    left: 3px;
+    width: 35px;
+    height: auto;
+  }
+  .test-tubes__organic-img {
+    top: 25px;
+    left: 36px;
+    width: 35px;
+    height: auto;
+  }
+  .test-tubes__text {
+    top: 2px;
+    left: 73px;
+    width: 128px;
+  }
+  .test-tubes__text h5 {
+    font-size: 12px;
+    padding-bottom: 2px;
+  }
+  .test-tubes__text p {
+    font-size: 11px;
+  }
+  /**** LAST ORDER ****/
+  .last-order__note p {
+    font-size: 11.5px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+  }
+  .last-order__content {
+    padding-bottom: 20px;
+  }
+  .last-order__figure__right img,
+  .last-order__figure__left img {
+    height: 26.66px;
+    width: auto;
+  }
+  .rectangle {
+    width: 65px;
+    height: 26.66px;
+  }
+  /****FOOTER****/
+  footer .container {
+    padding: 0 5px;
+  }
+  .footer__container a {
+    font-size: 6.5px;
+  }
+  .footer__text__title {
+    font-size: 8px;
+    line-height: 125%;
+    padding-bottom: 10px;
+  }
+  .footer__text__store-information {
+    max-width: 65px;
+  }
+  .footer__text__store-information a {
+    padding-left: 8px;
+  }
+  .footer__text__store-information img {
+    width: 10px;
+    height: auto;
+  }
+  .footer__text__store-information__phone {
+    margin-top: 8px;
+    margin-bottom: 10px;
+  }
+  .footer__text__store-information__mail {
+    margin-bottom: 25px;
+  }
+  .footer-img {
+    margin: 0;
+  }
+  .footer__text__store-information .footer-img {
+    padding-top: 5px;
+  }
+  .footer__text__my-accaunt {
+    margin: 0;
+  }
+  .footer__text__information {
+    margin-right: 18px;
+  }
+  .footer__text__social-media {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .footer__text__social-media .footer__text__title {
+    padding-left: 2px;
+    padding-bottom: 20px;
+  }
+  .footer__text__social-media__facebook {
+    margin-bottom: 10px;
+  }
+  .footer__text__social-media__facebook a img,
+  .footer__text__social-media__instagram a img {
+    width: 60px;
+    height: auto;
+  }
+  .footer__text__social-media__facebook a span,
+  .footer__text__social-media__instagram a span {
+    font-size: 7px;
+    padding-right: 3px;
+    padding-bottom: 3px;
+  }
+}
